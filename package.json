@@ -1,6 +1,6 @@
 {
   "name": "@hbtoan/next-sidebar",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "description": "A small, customizable React Sidebar component packaged as an npm library for Next.js and React apps.",
   "main": "dist/index.cjs.js",
