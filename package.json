@@ -1,0 +1,34 @@
+{
+  "name": "@hbtoan/next-sidebar",
+  "version": "0.1.2",
+  "private": false,
+  "description": "A small, customizable React Sidebar component packaged as an npm library for Next.js and React apps.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "baotoan-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baotoan-dev/next-sidebar.git"
+  },
+  "scripts": {
+    "build": "vite build",
+    "prepare": "npm run build",
+    "lint": "echo \"No lint configured\""
+  },
+  "peerDependencies": {
+    "react": "^18 || ^17",
+    "react-dom": "^18 || ^17"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
